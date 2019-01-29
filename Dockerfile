@@ -1,4 +1,5 @@
-FROM aeonproject/openjdk-jre
+FROM openjdk:8-jre-slim
+#FROM aeonproject/openjdk-jre
 
 ARG VERSION=0.9.1
 ARG RESPOSITORY_URL=https://dl.bintray.com/ptrthomas/karate/karate-$VERSION.jar
