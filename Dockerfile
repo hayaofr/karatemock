@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-slim
+FROM openjdk:8-jre-alpine
 #FROM aeonproject/openjdk-jre
 
 ARG VERSION=0.9.1
