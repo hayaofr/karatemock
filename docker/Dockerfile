@@ -1,7 +1,7 @@
 FROM aeonproject/openjdk-jre
 
-ARG VERSION=0.7.0
-ARG RESPOSITORY_URL=https://dl.bintray.com/ptrthomas/karate/karate-netty-$VERSION-all.jar
+ARG VERSION=0.9.1
+ARG RESPOSITORY_URL=https://dl.bintray.com/ptrthomas/karate/karate-$VERSION.jar
 RUN echo "using karate netty mock server version $RESPOSITORY_URL"
 RUN mkdir -p /opt/karatemock &&\
     wget -O /opt/karatemock/karate.jar $RESPOSITORY_URL
